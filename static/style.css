@@ -1,0 +1,411 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #061826;
+}
+
+/* Header Styles */
+header {
+    background-color: #38618c;
+    color: white;
+    padding: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #35a7ff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #061826;
+    border-radius: 5px;
+}
+
+/* Banner and Slideshow Styles */
+.banner-container {
+    position: relative;
+    max-width: 930px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.slide-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.slide-arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.banner-container img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 800px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Content Layout Styles */
+.centered-text {
+    text-align: justify; 
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px; 
+    line-height: 1.6; 
+}
+
+/* Video Container Styles */
+.video-container {
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px 0; 
+}
+
+.video-container iframe {
+    width: 100%; 
+    height: 500px; 
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #061826;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Content container styling */
+.content-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    text-align: left; 
+    padding: 20px;
+}
+
+/* Image container styling */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Facts section styling */
+.facts-container ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.facts-container ul li {
+    margin: 10px 0; 
+    text-align: left; 
+}
+
+/* General unordered list styling */
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+ul li {
+    margin-bottom: 10px; 
+}
+
+/* Toggle button styling */
+#toggle-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #061826;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#toggle-button:hover {
+    background-color: #0a2a4a;
+}
+
+/* Extra content styling */
+#extra-content {
+    margin-top: 20px;
+}
+
+/* Toggle button for read more/less */
+#toggle-button, #toggle-button-less {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #061826;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#toggle-button:hover, #toggle-button-less:hover {
+    background-color: #0a2a4a;
+}
+
+#extra-content {
+    margin-top: 20px;
+}
+
+/* Gallery Styles */
+.gallery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #061826;
+}
+
+/* Souvenir item image styling */
+.souvenir-item img {
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* FAQ Section Styles */
+.faq-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.faq-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px; 
+    text-align: left;
+}
+
+.faq-container ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.faq-container h2 {
+    text-align: left;
+    margin-left: 0;
+}
+
+/* Weather Widget Styles */
+.weather-section {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+    display: inline-block;
+    text-align: left;
+}
+
+.weather-icon {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.gallery-link-image {
+    width: 200px;
+    height: auto; 
+    border-radius: 15px; 
+}
+
+.instagram-link-image {
+    width: 150px; 
+    height: auto; 
+    transition: transform 0.3s; 
+}
+
+.instagram-link-image:hover {
+    transform: scale(1.05); 
+}
+
+/* Mailing List Form Styles */
+.mailing-list-section {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mailing-list-section h2 {
+    color: #061826;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group.checkbox label {
+    margin-bottom: 0;
+}
+
+.submit-button {
+    background-color: #38618c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #2d4d70;
+}
+
+.image-credits {
+    margin-top: 1rem;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.image-credits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.image-credits p {
+    margin: 0.5rem 0;
+}

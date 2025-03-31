@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Visit - Duquesne Incline</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../static/logo.jpg" alt="Duquesne Incline Logo" class="logo">
+            <h1>Duquesne Incline</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="plan.html">Plan Your Visit</a></li>
+            <li><a href="souvenirs.html">Souvenirs</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-container">
+        <section class="location-section">
+            <h2>Location &amp; Directions</h2>
+            <p>The Duquesne Incline is located at 1197 West Carson Street, Pittsburgh, PA 15219, on the south shore of the Monongahela River. We’re just minutes from downtown Pittsburgh and accessible via public transit or by car.</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.6206050205487!2d-80.02056077277884!3d40.4393991542574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f6af9e6ab935%3A0xe871d2bbc2032b83!2sDuquesne%20Incline!5e0!3m2!1sen!2sus!4v1743304782091!5m2!1sen!2sus" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <h3>Public Transportation</h3>     
+            <p>Several Port Authority bus routes stop near Station Square, which is a short walk across the Smithfield Street Bridge from downtown. Once you arrive at Station Square, you can take a short ride or walk to our lower station entrance.</p>
+            <h3>Driving &amp; Parking</h3>
+            <p>From downtown Pittsburgh, cross the Smithfield Street Bridge and turn right onto West Carson Street. Follow the signs for the Duquesne Incline. Free parking is available in our lower station lot (space is limited, so arrive early on weekends and holidays). Paid parking lots can also be found near Station Square.</p>
+        </section>
+
+        <section class="hours-section">
+            <h2>Hours of Operation</h2>
+            <p><strong>Monday – Saturday:</strong> 5:30 AM – 12:45 AM</p>
+            <p><strong>Sunday:</strong> 7:00 AM – 12:45 AM</p>
+            <p>The last trip usually departs around 12:45 AM, so be sure to arrive in time if you want a late-night ride.</p>
+        </section>
+
+        <section class="fares-section">
+            <h2>Tickets &amp; Fares</h2>
+            <ul>
+                <li><strong>Adults:</strong> $5.00 one-way / $10.00 round-trip</li>
+                <li><strong>Children (6–12):</strong> $2.50 one-way / $5.00 round-trip</li>
+                <li><strong>Children (Under 6):</strong> Free</li>
+                <li><strong>Senior Citizens:</strong> $3.00 one-way / $6.00 round-trip</li>
+                <li>University of Pittsburgh Students Free, with proper I.D.</li>
+                <li>Chatham University Students Free, with proper I.D.</li>
+                <li>Carnegie Mellon University Students Free, with proper I.D.</li>
+                <li>Seniors age 65 or older who present a blue or yellow PRT card or a Senior Connect Card ride free.</li>
+                <li>Cash fares as well as Port Authority bus passes and tickets are accepted as payment.</li>
+            </ul>
+        </section>
+
+        <section class="Group-visiting-section">
+            <h2>Group Visits</h2>
+            <ul>
+                <li>Group Rates are Valid for Any Group of Ten or More People</li>
+                <li>Adults (Ages 12-64) $1.75 Each Way or $3.50 Round Trip</li>
+                <li>Children (Ages 6-11) $1.00 Each Way or $1.75 Round Trip</li>
+            </ul>
+            <p>For school trips and organizations, see our <a href="https://form.jotform.com/240705601606145" target="_blank">Group Tours page</a> to plan your visit.</p>
+        </section>
+
+        <section class="accessibility-section">
+            <h2>Accessibility</h2>
+            <p>Our upper and lower stations have ramps for wheelchair access, and our staff is happy to assist visitors with special needs whenever possible. To ensure a comfortable experience, please contact us in advance if your group includes individuals who may need additional assistance.</p>
+        </section>
+
+        <section class="best-times-section">
+            <h2>Best Times to Visit</h2>
+            <ul>
+                <li><strong>Weekday Mornings:</strong> Typically the least crowded, making it easier to explore the machinery and museum displays.</li>
+                <li><strong>Sunset &amp; Evening:</strong> Many visitors come around dusk for breathtaking skyline views as the city lights begin to shine.</li>
+                <li><strong>Weekends/Holidays:</strong> Expect more crowds. We recommend coming early or late in the day to avoid the biggest rush.</li>
+            </ul>
+        </section>
+
+        <section class="things-to-do-section">
+            <h2>Things to Do Nearby</h2>
+            <ul>
+                <p>There are plenty of places to visit near the Duquesne Incline, including scenic overlooks, vibrant neighborhoods, and riverside attractions with shops, restaurants, and entertainment venues.</p>
+            </ul>
+            <button id="toggle-button">Read More</button>
+            <div id="extra-content" style="display: none;">
+                <h3>City Tours That Feature the Duquesne Incline</h3>
+                <ul>
+                    <li><strong>Pittsburgh Tours and More:</strong> Pittsburgh Movie Locations, Sports, Breweries, Wineries, and More. <a href="http://www.pghtoursandmore.net" target="_blank">www.pghtoursandmore.net</a> 412-323-4707</li>
+                    <li><strong>Molly's Trolleys:</strong> <a href="http://www.mollystrolleyspgh.com" target="_blank">www.mollystrolleyspgh.com</a> 412-281-2055</li>
+                    <li><strong>Rivers of Steel:</strong> <a href="http://www.riversofsteel.com" target="_blank">www.riversofsteel.com</a> 412-464-4020 or 412-381-8687</li>
+                    <li><strong>The Pittsburgh Tour Company:</strong> Hop on/Hop off Double Decker tour buses from London. <a href="http://www.pghtours.com" target="_blank">www.pghtours.com</a> 412-381-8687</li>
+                </ul>
+
+                <h3>Things to Do After Incline Visit</h3>
+                <ul>
+                    <li><strong>Dining on Grandview Avenue:</strong> Within walking distance of the upper station.</li>
+                    <li><strong>Steel Mill Saloon:</strong> <a href="https://www.steelmillsaloon.com" target="_blank">www.steelmillsaloon.com</a> 412-586-4926</li>
+                    <li><strong>Coal Hill Steak House (Grandview Saloon):</strong> <a href="http://www.thegrandviewsaloon.com" target="_blank">www.thegrandviewsaloon.com</a> 412-431-1400</li>
+                    <li><strong>LeMont Restaurant:</strong> <a href="http://www.lemontpittsburgh.com" target="_blank">www.lemontpittsburgh.com</a> 412-431-3100</li>
+                    <li><strong>Monterey Bay Fish Grotto:</strong> <a href="http://www.montereybayfishgrotto.com" target="_blank">www.montereybayfishgrotto.com</a> 412-381-1919</li>
+                </ul>
+
+                <h3>Station Square</h3>
+                <ul>
+                    <li><strong>Sheraton Pittsburgh Hotel at Station Square:</strong> <a href="http://www.sheraton.com/stationsquare" target="_blank">www.sheraton.com/stationsquare</a> 412-261-2000</li>
+                    <li><strong>Hard Rock Cafe:</strong> <a href="http://www.hardrock.com/pittsburgh" target="_blank">www.hardrock.com/pittsburgh</a> 412-481-7625</li>
+                    <li><strong>Buca di Beppo (Italian Cuisine):</strong> <a href="http://www.bucadibeppo.com" target="_blank">www.bucadibeppo.com</a> 412-471-9463</li>
+                    <li><strong>Gateway Clipper Fleet:</strong> <a href="http://www.gatewayclipper.com" target="_blank">www.gatewayclipper.com</a> 412-355-7993</li>
+                    <li><strong>Grand Concourse:</strong> <a href="http://www.opentable.com/grand-concourse" target="_blank">www.opentable.com/grand-concourse</a> 412-261-1717</li>
+                </ul>
+
+                <h3>North Shore</h3>
+                <ul>
+                    <li><strong>Rivers Casino Pittsburgh:</strong> <a href="http://www.theriverscasino.com" target="_blank">www.theriverscasino.com</a> 412-231-7777</li>
+                    <li><strong>Heinz Field:</strong> Home to the Pittsburgh Steelers and University of Pittsburgh Panthers Football Teams. 412-323-1200</li>
+                    <li><strong>PNC Park:</strong> Home to the Pittsburgh Pirates. <a href="http://www.pittsburghpirates.com" target="_blank">www.pittsburghpirates.com</a> 412-321-BUCS</li>
+                    <li><strong>Carnegie Science Center/Highmark Sports Works:</strong> <a href="http://www.carnegiesciencecenter.org" target="_blank">www.carnegiesciencecenter.org</a> 412-237-3336</li>
+                </ul>
+
+                <h3>Downtown</h3>
+                <ul>
+                    <li><strong>Market Square:</strong> <a href="http://www.downtownpittsburgh.com/market-square" target="_blank">www.downtownpittsburgh.com/market-square</a></li>
+                    <li><strong>Golden Triangle Bike Rental:</strong> <a href="http://www.bikepittsburgh.com" target="_blank">www.bikepittsburgh.com</a> 412-600-0675</li>
+                    <li><strong>Fort Pitt Museum + Blockhouse:</strong> <a href="http://www.pittsburgh.about.com/od/discover_history/p/fort_pitt_museum.htm" target="_blank">www.pittsburgh.about.com</a> 412-454-6000</li>
+                    <li><strong>PPG Paints Arena:</strong> Home of the Pittsburgh Penguins. <a href="http://www.ppgpaintsarena.com" target="_blank">www.ppgpaintsarena.com</a> 412-642-1800</li>
+                </ul>
+
+                <h3>Sites of Interest</h3>
+                <ul>
+                    <li><strong>Visit Pittsburgh:</strong> <a href="http://www.visitpittsburgh.com" target="_blank">www.visitpittsburgh.com</a> 800-359-0758</li>
+                    <li><strong>Popular Pittsburgh:</strong> <a href="http://www.popularpittsburgh.com" target="_blank">www.popularpittsburgh.com</a> 800-231-4788</li>
+                </ul>
+                <button id="toggle-button-less">Read Less</button>
+            </div>
+        </section>
+
+        <section class="field-trip-section">
+            <h2>Field Trip Program</h2>
+            <ul>
+                <li>A free field trip program is available for students and youth groups of ten or more daily – except Saturdays and Sundays after 12:00 noon due to weekend crowds and limited space. The program includes:</li>
+                <li>A teacher's lesson packet for students' specific grade level</li>
+                <li>A round trip ride on the Duquesne Incline</li>
+                <li>A history of inclines in Pittsburgh</li>
+                <li>A discussion about Pittsburgh's industrial past</li>
+                <li>A visit to the machine room to observe the original hoisting equipment in operation and learn about the engineers who built it</li>
+                <li>A panoramic view of Downtown Pittsburgh and The North Shore from our observation deck 400 feet above the three rivers</li>
+                <li>A brief history of the French and Indian War from which the city arose</li>
+                <li><a href="https://www.duquesneincline.org/duquesneincline/view.php?id=1" target="_blank">Click here to make reservation</a></li>
+            </ul>
+        </section>
+
+        <section class="weather-section">
+            <h2>Current Weather in Pittsburgh</h2>
+            <div id="weather-widget">
+                <p>Loading weather information...</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> 412-555-1212</p>
+            <p><strong>Email:</strong> <a href="mailto:info@duquesneincline.org">info@duquesneincline.org</a></p>
+            <p>We can’t wait to welcome you aboard and show you a piece of Pittsburgh’s living history!</p>
+        </section>
+
+        <section class="mailing-list-section">
+            <h2>Join Our Mailing List</h2>
+            <p>Stay updated with our latest events and promotions!</p>
+            
+            <form id="mailing-list-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required 
+                           minlength="2" maxlength="50">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required 
+                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                           maxlength="100">
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="sms-consent" name="sms-consent">
+                    <label for="sms-consent">Yes, I would like to receive SMS updates</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Mobile Phone (Optional)</label>
+                    <input type="tel" id="phone" name="phone" 
+                           pattern="[0-9]{10}"
+                           minlength="10" maxlength="10"
+                           placeholder="1234567890">
+                </div>
+
+                <div class="form-group">
+                    <label for="zipcode">Zip Code (Optional)</label>
+                    <input type="text" id="zipcode" name="zipcode" 
+                           pattern="[0-9]{5}"
+                           minlength="5" maxlength="5"
+                           placeholder="12345">
+                </div>
+
+                <button type="submit" class="submit-button">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Duquesne Incline. All Rights Reserved.</p>
+    </footer>
+    <script src="../static/script.js"></script>
+</body>
+</html>
